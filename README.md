@@ -1,19 +1,28 @@
-**Project Scope**: Analyze the Movies Metadata (https://www.kaggle.com/rounakbanik/the-movies-dataset/version/7#movies_metadata.csv)
 
+
+**Project Scope**:
+
+Analyze the Movies Metadata (https://www.kaggle.com/rounakbanik/the-movies-dataset/version/7#movies_metadata.csv)
+
+----------------------------------------------------------------------------------------------
 **Requirement 1** :
+
 Read a movies metadata csv file and split into 4 csv files called genres, production companies, languages and movies
 
 **Input**: 
+
 movies_metadata.csv
 
 **Output**:
+
 genres.csv
 languages.csv
 production_companies.csv
 movies.csv
 
-
+------------------------------------------------------------------------------------------------
 **Requirement 2**:
+
 Read the csv's split in requirement 1 and load them into the database
 
 **Input**:
@@ -24,16 +33,18 @@ production_companies.csv
 movies.csv
 
 **Output**:
-Below database tables created
+
+Following database tables created:
 genres 
 languages
 production_companies
 movies
 
 
+------------------------------------------------------------------------------------------------
 **Requirement 3**: Using the tables created in step 2, answer the below queries regarding the movies.
 
-**Input**: Below database tables
+**Input**: Following database tables:
 genres 
 languages
 production_companies
